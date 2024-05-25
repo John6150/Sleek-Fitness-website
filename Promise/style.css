@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Playpen Sans';  */
+}
+.main{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    gap: 3.5%;
+    background-color: rgb(49, 49, 49);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.685), rgba(116, 17, 17, 0.158)), url(9.jpg);
+    background-size: cover;
+    background-position: center; 
+    color: white;
+}
+.firs{
+    width: 35.4%;
+    height: 140vh;
+    color: white;
+}
+.first{
+    height: 510px;
+    width: 300px;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20vh 0 0 13%;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.702);
+    /* position: relative; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 0.1px; */  
+}
+.first-2{
+    width: 270px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    line-height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgba(254, 0,2, 1);
+}
+.first-2 a{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+.more{
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+
+    
+}
+.mor{
+    width: 20px;
+    height: 20px;
+   
+}
+.drop-down{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 83px;
+    right: 25px; 
+}
+.drop-dow{
+    width: 20px;
+    height: 20px;
+    /* position: relative; */
+    top: 83px;
+    right: 25px; 
+}
+.drop-dow:hover .dropl{
+    display: block;
+    transition: all 1s ease ;
+    
+}
+.dropl{
+    display: none;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    position: absolute;
+    bottom: -5.6px;
+    right: 15px;
+    /* background-color: rgb(223, 221, 215); */
+}
+.edit{
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    position: absolute;
+    display: none;
+    top: 30px;
+    right: -15px;
+}
+.drop-down:focus-within .edit{
+    display: block;
+}
+
+.dropl p{
+    color: white;
+    font-size: 10px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.first-2 a:hover{
+    color: rgb(0, 0, 0);
+}
+.content-1{
+    width: 270px;
+    height: 200px;
+    /* position: absolute; */
+    margin: 70px auto 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 9px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-1 p{
+    color: rgb(239, 239, 239);
+  
+}
+.sec{
+    width: 61.1%;
+    height: 140vh;
+    display: flex;
+    align-items: center;
+}
+.second2{
+    display: flex;
+    align-items: center;
+    gap: 290px;
+    /* background-color: aquamarine; */
+}
+.second2 h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.second p i{
+    font-family: 'Playpen sans';
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(254, 0,2, 1);
+}
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+}
+span{
+    color: rgb(180,220,233);
+}
+.name{
+    display: flex;
+    gap: 5rem;
+}
+.bu{
+    margin-left: 420px;
+}
+.bu1{
+    background-color: rgba(254, 0,2, 1);
+    border: none;
+    color: white;
+}
+.bu2{
+    background-color: rgba(254, 0,2, 1);
+    color: white;
+    border: none;
+}
+input{
+    width: 230px;
+    height: 20px;
+    padding: 5px;
+    outline: none;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom:2px solid rgba(254, 0, 2, 1);
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+hr{
+    color: red;
+    width: 635px;
+}
+/* styling for my membership page, orders page, addresses */
+.kans{
+    width: 61.1%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: blue; */
+}
+.kans h2, h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.kans p{
+    font-family: 'Playpen Sans';
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(254, 0, 2, 1);
+    
+}
+
+.kan{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+.line{
+    text-decoration: underline;
+}
+.line:hover{
+    text-decoration: none;
+}
+.new{
+    width: 250px;
+    height: 45px;
+    background-color: rgba(254, 0,2, 1);
+    border: none;
+    color: white;
+}
+.new:hover{
+    background-color: rgb(240, 43, 43);
+    transition: background-color 200ms ease-in, width 200ms ease-in;
+
+}
+/* end of the styling for my membership page, orders page, addresses */
+
+
+/* styling for the header */
+a{
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+        }
+        .main-container{
+            width: 100%;
+            overflow: hidden;
+            font-family: sans-serif;
+            color: black;
+        }
+
+        .cart-container{
+            width: 100%;
+            height: 40px;
+            background-color: rgba(53, 53, 53, 0.546);
+            display: flex;
+            align-items: center;
+            position: fixed;
+            margin: -5px 0 0 0;
+            z-index: 10;
+            font-family: sans-serif;
+
+        }
+        .cart-container-content{
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 0 0 500px;
+
+        }
+        .cart-container-content .material-symbols-outlined{
+            color: white;
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+            color: rgb(243, 6, 6);
+        }
+        .nav{
+            width: 100%;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.445);
+            margin: 0 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            margin: 34px 0 0 0;
+            z-index: 10;
+        }
+
+        .nav-bar{
+            width: 700px;
+            height: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .nav img{
+            width: 200px;
+            height: 70px;
+            margin-left: 10px;
+            z-index: 100;
+        }
+        .nav-bar button{
+            background: none;
+            outline: none;
+            border: none;
+            color: white;
+            width: 80px;
+            font-family: sans-serif;
+        }
+        .nav-bar button a:hover{
+            text-decoration: underline rgba(254, 0,2, 1);
+            text-underline-offset: 5px;
+
+        }
+        .login{
+            width: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: antiquewhite; */
+            gap: 5px;
+        }
+        .login img{
+            height: 40px;
+            width: 40px;
+            color: white;
+        } 
+        .login p{
+            color: white;
+        } 
+        #signup{
+            background-color: rgba(254, 0,2, 1);
+            padding: 15px;
+            width: 130px;
+            height: 40px;
+            border-radius: 3px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a #signup:hover{
+            background-color: rgb(240, 43, 43);
+            transition: background-color 200ms ease-in, width 200ms ease-in;
+        }
+        /* end of styling for the header */
+
+
+
+        /* styling for the footer */
+        .footer{
+            width: 100vw;
+            height: 500px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+        }
+        .footer1{
+            width: 400px;
+            height: 400px;
+            margin-left: 50px;
+            color: white;
+            line-height: 40px;
+
+        }
+        .footer1 img{
+            width: 140px;
+        }
+        .footer1 button{
+            width: 70px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            padding: 10px;
+            color: white;
+            background-color: rgba(254, 0,2, 1);
+
+        }
+        .footer1 input{
+            width: 250px;
+            border: none;
+            outline: none;
+            background: none;
+            padding: 10px;
+            color: white;
+            border-bottom: 2px solid rgba(254, 0,2, 1);
+        }
+        .footer2{
+            width: 700px;
+            height: 300px;
+            margin-left: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .footer3{
+            color: white;
+            width: 150px;
+            height: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .footer4{
+            color: white;
+            width: 250px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .footer5{
+            color: white;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .footer6{
+            color: white;
+            width: 150px;
+            height: 75px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .footer7{
+            color: white;
+            width: 150px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .footer3 p, .footer4 p, .footer5 p, .footer6 p, .footer7 p{
+            color: rgb(248, 22, 22);
+        }
+        /* end of styling for footer */
